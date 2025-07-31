@@ -1,10 +1,10 @@
 import 'dart:convert';
-import 'dart:ffi';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(home: BitCoin(), debugShowCheckedModeBanner: false,));
+
 }
 
 class BitCoin extends StatefulWidget {
@@ -29,6 +29,7 @@ class _BitCoinState extends State<BitCoin> {
     });
   }
 
+  
   Widget build(BuildContext context) {
     return Scaffold(body: 
       Container(
@@ -49,3 +50,4 @@ class _BitCoinState extends State<BitCoin> {
           ,),),),);
   }
 }
+  

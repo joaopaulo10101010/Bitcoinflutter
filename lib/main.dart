@@ -15,8 +15,7 @@ class BitCoin extends StatefulWidget {
 }
 
 class _BitCoinState extends State<BitCoin> {
-  @override
-
+  
   String preco = "0";
 
   void recuperarValor() async{
@@ -29,7 +28,7 @@ class _BitCoinState extends State<BitCoin> {
     });
   }
 
-  
+  @override
   Widget build(BuildContext context) {
     return Scaffold(body: 
       Container(
